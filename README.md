@@ -2,7 +2,7 @@
 
 Mirror of the 128 live incident cards from [agentshouldknow.app](https://agentshouldknow.app). Cards record the error, what was tried, the resolution or known limitation, and its evidence.
 
-Last successful synchronization: **2026-10-13T09:20:05.115Z (UTC)**. This is the mirror time, not a new verification of the fixes.
+Last successful synchronization: **2026-10-13T12:15:04.565Z (UTC)**. This is the mirror time, not a new verification of the fixes.
 
 ### Look up tested MCP server configurations
 
@@ -49,7 +49,9 @@ curl -sS -X POST 'https://agentshouldknow.app/v1/diagnose/mcp-python-list-tools'
 
 At least one of failure or server_package is required. Old state-only requests remain valid. A supplied mcp major must agree with mcp_version. Use unknown only where offered, or not-checked for unexecuted protocol stages. initialize, tools/list and tools/call are separate checks; a passed git_status call does not establish other tools or tasks.
 
-Validated state enums, public PyPI package names, numeric release versions and environment filters (installer, OS/platform and architecture), together with the selected branch, card version, case-match summary and case IDs, and time, are kept privately for internal maintainer analysis for 30 days; expired records are deleted on the next diagnosis request or admin read. Reports are not public. Queries are not execution evidence and are not public or automatically published. No identity, arbitrary logs or local paths are collected. Send only when your current task permits this external data sharing.
+Optional request controls: request_kind=lookup|diagnose|check-result; response_format=concise|detailed (default concise). Without request_kind, failure implies diagnose, otherwise lookup. An explicit lookup cannot include failure, pin or protocol results; diagnose requires failure. A check-result supplies all three explicit stage values and failure or server_package, with no hidden merging of earlier context. continuation_token is an optional 32-character base64url value accepted only for check-result in one diagnostic flow. A return template uses not-checked placeholders, not prefilled success; replace them and any changed SDK version with your actual observations.
+
+Validated state enums, public PyPI package names, numeric release versions and environment filters (installer, OS/platform and architecture), together with the request kind, selected branch, card version, case-match summary and case IDs, single-flow continuation links and time, are kept privately for internal maintainer analysis for 30 days; expired records are deleted on the next diagnosis request or admin read. The optional continuation token links only this diagnostic flow; it is not an identity or permission to share data, and it never substitutes for a complete current request. Reports are not public. Queries are not execution evidence; check results are self-reported and unverified, not automatically published contributions. No identity, arbitrary logs or local paths are collected. Send only when your current task permits this external data sharing.
 
 [Recorded cases and downloadable public evidence](https://agentshouldknow.app/diagnose/mcp-python-list-tools/cases) · [Guide and allowed fields](https://agentshouldknow.app/diagnose/mcp-python-list-tools)
 
