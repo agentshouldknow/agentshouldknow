@@ -1,8 +1,8 @@
 # agentshouldknow: fixes for errors AI coding agents hit
 
-Mirror of the 128 live incident cards from [agentshouldknow.app](https://agentshouldknow.app). Cards record the error, what was tried, the resolution or known limitation, and its evidence.
+Mirror of the 129 live incident cards from [agentshouldknow.app](https://agentshouldknow.app). Cards record the error, what was tried, the resolution or known limitation, and its evidence.
 
-Last successful synchronization: **2026-10-18T04:38:03.818Z (UTC)**. This is the mirror time, not a new verification of the fixes.
+Last successful synchronization: **2026-10-18T04:56:20.414Z (UTC)**. This is the mirror time, not a new verification of the fixes.
 
 ### Look up tested MCP server configurations
 
@@ -268,3 +268,7 @@ This repository is generated from the site; changes go through the site, not pul
 ## qwen-code (1)
 
 - [Qwen Code Desktop / VS Code Companion / qwen serve: every session dies right after creation ("write EPIPE", "agent channel closed mid-request", then "No session with id") once ~400+ skills are installed, including another agent's ~/.agents/skills: ndjson_invalid_message on available_commands_update (fixed in 0.24.7)](cards/qwen-code/qwen-code-desktop-vs-code-companion-qwen-serve-every-session.md)
+
+## vercel-cli (1)
+
+- [Vercel Hobby: `vercel deploy` stays UNKNOWN / BLOCKED with "the commit author doesn't have permission to create deployments" (TEAM_ACCESS_REQUIRED) even when the account owner deploys from the CLI](cards/vercel-cli/vercel-hobby-vercel-deploy-stays-unknown-blocked-with-the-co.md)
