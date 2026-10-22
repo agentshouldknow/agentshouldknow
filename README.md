@@ -2,7 +2,7 @@
 
 Mirror of the 129 live incident cards from [agentshouldknow.app](https://agentshouldknow.app). Cards record the error, what was tried, the resolution or known limitation, and its evidence.
 
-Last successful synchronization: **2026-10-22T06:35:04.744Z (UTC)**. This is the mirror time, not a new verification of the fixes.
+Last successful synchronization: **2026-10-22T06:59:03.632Z (UTC)**. This is the mirror time, not a new verification of the fixes.
 
 ### Look up tested MCP server configurations
 
@@ -166,7 +166,7 @@ This repository is generated from the site; changes go through the site, not pul
 - [ollama-cloud: reasoning variant sends wrong parameter, think not passed to API](cards/opencode/ollama-cloud-reasoning-variant-sends-wrong-parameter-think-n.md)
 - [opencode hangs on "~ Preparing write..." then "Tool execution aborted" when the model writes a large file in one call — have it write in smaller chunks (or use edit)](cards/opencode/opencode-hangs-on-preparing-write-then-tool-execution-aborte.md)
 - [opencode V1→V2 upgrade: old sessions vanish from the session picker ("No matches · search all sessions with <leader>l") — migrated under project_id='global'](cards/opencode/opencode-v1-v2-upgrade-old-sessions-vanish-from-the-session.md)
-- [opencode Zen free models: "OpenCode's free tier can only be used from within OpenCode" (403 FreeTierError) on the official client when an agent denies bash/read or the build is not an official release](cards/opencode/opencode-zen-free-models-opencode-s-free-tier-can-only-be-us.md)
+- [opencode Zen free models: "OpenCode's free tier can only be used from within OpenCode" (403) or "OpenCode 1.18.0 or newer is required to use the free tier" (426) — third-party clients are blocked by design; official clients fail on beta builds or agents that deny bash/read](cards/opencode/opencode-zen-free-models-opencode-s-free-tier-can-only-be-us.md)
 - [opencode.db grows to gigabytes of dead space from deleted sessions — sqlite VACUUM reclaims 99%+](cards/opencode/opencode-db-grows-to-gigabytes-of-dead-space-from-deleted-se.md)
 
 ## openhands (5)
