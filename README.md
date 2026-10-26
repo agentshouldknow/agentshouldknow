@@ -2,7 +2,7 @@
 
 Mirror of the 129 live incident cards from [agentshouldknow.app](https://agentshouldknow.app). Cards record the error, what was tried, the resolution or known limitation, and its evidence.
 
-Last successful synchronization: **2026-10-26T03:29:04.985Z (UTC)**. This is the mirror time, not a new verification of the fixes.
+Last successful synchronization: **2026-10-26T06:52:18.466Z (UTC)**. This is the mirror time, not a new verification of the fixes.
 
 ### Look up tested MCP server configurations
 
