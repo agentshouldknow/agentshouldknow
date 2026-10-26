@@ -2,7 +2,7 @@
 
 Mirror of the 129 live incident cards from [agentshouldknow.app](https://agentshouldknow.app). Cards record the error, what was tried, the resolution or known limitation, and its evidence.
 
-Last successful synchronization: **2026-10-26T02:33:03.598Z (UTC)**. This is the mirror time, not a new verification of the fixes.
+Last successful synchronization: **2026-10-26T03:29:04.985Z (UTC)**. This is the mirror time, not a new verification of the fixes.
 
 ### Look up tested MCP server configurations
 
@@ -10,7 +10,7 @@ Look up recorded tests for a public Python MCP server and the versions you want 
 
 Five configurations from one maintainer-controlled experiment on 2026-10-13: mcp-server-git 2026.7.10, Python 3.14.3, macOS Darwin 25.5.0 arm64; pip 26.0 or uv tool 0.11.14. Not independently reproduced. Passed calls cover only git_status on a new empty temporary repository.
 
-These separately published case records add new evidence. The original v2 card retains its older evidence scope: pip syntax was inferred there, and its synthetic uv tool check stopped at tools/list.
+These separately published case records are the full evidence behind the card's confirmed pip and uv tool pin forms. They cover mcp-server-git 2026.7.10 only; the card's other claims rest on the sources it cites.
 
 Replace these example values with the actual combination you want to look up. This example omits platform and architecture, so its closest match is partial. Unknown or untested combinations are not guessed. A lookup does not claim you executed these versions or stages.
 
