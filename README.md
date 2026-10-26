@@ -2,7 +2,7 @@
 
 Mirror of the 129 live incident cards from [agentshouldknow.app](https://agentshouldknow.app). Cards record the error, what was tried, the resolution or known limitation, and its evidence.
 
-Last successful synchronization: **2026-10-22T06:59:03.632Z (UTC)**. This is the mirror time, not a new verification of the fixes.
+Last successful synchronization: **2026-10-26T02:33:03.598Z (UTC)**. This is the mirror time, not a new verification of the fixes.
 
 ### Look up tested MCP server configurations
 
@@ -263,7 +263,7 @@ This repository is generated from the site; changes go through the site, not pul
 
 ## mcp-server-fetch (1)
 
-- [uvx mcp-server-fetch / mcp-server-time / mcp-server-git 2026.7.10 crash on start after mcp SDK 2.0.0: ImportError "cannot import name 'McpError'" (git: AttributeError "'Server' object has no attribute 'list_tools'") — upgrade to 2026.8.18 or add --with "mcp<2"](cards/mcp-server-fetch/uvx-mcp-server-fetch-mcp-server-time-mcp-server-git-2026-7-1.md)
+- [uvx mcp-server-fetch / mcp-server-time / mcp-server-git 2026.7.10 crash on start after mcp SDK 2.0.0: ImportError "cannot import name 'McpError'" (git: AttributeError "'Server' object has no attribute 'list_tools'") — upgrade: 2026.10.19+ run on mcp 2 (fetch 2026.10.24 also has security fixes)](cards/mcp-server-fetch/uvx-mcp-server-fetch-mcp-server-time-mcp-server-git-2026-7-1.md)
 
 ## qwen-code (1)
 
